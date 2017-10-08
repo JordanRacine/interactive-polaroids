@@ -23,3 +23,18 @@ html {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
 }
+
+.polaroid:first-child {
+  left: 30%;
+  top: 20%;
+}
+
+.polaroid:nth-child(2) {
+  left: 40%;
+  top: 30%;
+}
+
+.polaroid:last-child {
+  left: 50%;
+  top: 20%;
+}
