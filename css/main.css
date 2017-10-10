@@ -27,14 +27,20 @@ html {
 .polaroid:first-child {
   left: 30%;
   top: 20%;
+  transform: rotate(-33deg);
+
 }
 
 .polaroid:nth-child(2) {
   left: 40%;
   top: 30%;
+  transform: rotate(0);
+
 }
 
 .polaroid:last-child {
   left: 50%;
   top: 20%;
+  transform: rotate(33deg);
+
 }
